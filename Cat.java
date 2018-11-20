@@ -25,11 +25,14 @@ public class Cat {
     }
     //constructor w/out parameters
     public Cat () {
-
     }
     //constructor that takes a String and assigns the name instance variable to it
-    public Cat(String name) {
-        
+    public Cat(String argname) {
+        name = argname;
     }
-    
+    //method that prints out meow
+    public void sayMeow() {
+        System.out.println("Meow!");
+        return;
+    }
 }
